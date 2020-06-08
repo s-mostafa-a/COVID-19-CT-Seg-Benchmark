@@ -10,7 +10,7 @@ import nibabel as nb
 import os
 from collections import OrderedDict
 import pandas as pd
-from .SurfaceDice import compute_surface_distances, compute_surface_dice_at_tolerance, \
+from utils.SurfaceDice import compute_surface_distances, compute_surface_dice_at_tolerance, \
     compute_dice_coefficient
 
 join = os.path.join
